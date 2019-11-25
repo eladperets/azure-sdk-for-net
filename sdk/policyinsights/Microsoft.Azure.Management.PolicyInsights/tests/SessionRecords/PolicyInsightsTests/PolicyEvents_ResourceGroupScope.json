@@ -7,7 +7,7 @@
       "RequestBody": "",
       "RequestHeaders": {
         "x-ms-client-request-id": [
-          "54106e25-cb3d-47e3-af9a-98a76b42b039"
+          "b86cc165-9f9e-4cd2-8968-77f25811c3a0"
         ],
         "accept-language": [
           "en-US"
@@ -24,7 +24,7 @@
           "no-cache"
         ],
         "Date": [
-          "Fri, 22 Nov 2019 08:01:00 GMT"
+          "Mon, 25 Nov 2019 22:56:18 GMT"
         ],
         "Pragma": [
           "no-cache"
@@ -33,19 +33,19 @@
           "Microsoft-HTTPAPI/2.0"
         ],
         "x-ms-ratelimit-remaining-subscription-policy-insights-requests": [
-          "599"
+          "598"
         ],
         "x-ms-request-id": [
-          ":f514163f-df98-4aac-91a1-5bee431704be"
+          ":45ee52ad-e2cd-40df-9470-2b97fb386170"
         ],
         "x-ms-ratelimit-remaining-subscription-reads": [
-          "11999"
+          "11998"
         ],
         "x-ms-correlation-request-id": [
-          "d9564ed2-dcf9-4dab-ae87-ed1887b25853"
+          "85a67c66-e5af-4635-b018-dcc04050a3f3"
         ],
         "x-ms-routing-request-id": [
-          "WESTUS:20191122T080100Z:d9564ed2-dcf9-4dab-ae87-ed1887b25853"
+          "WESTUS:20191125T225618Z:85a67c66-e5af-4635-b018-dcc04050a3f3"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -68,5 +68,7 @@
     }
   ],
   "Names": {},
-  "Variables": {}
+  "Variables": {
+    "SubscriptionId": "0b40be06-04e8-4f70-abde-a502b2646fe8"
+  }
 }

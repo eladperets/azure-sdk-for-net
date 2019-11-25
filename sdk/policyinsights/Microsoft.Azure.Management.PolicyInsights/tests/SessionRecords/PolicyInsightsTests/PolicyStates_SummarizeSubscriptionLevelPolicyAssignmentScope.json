@@ -7,7 +7,7 @@
       "RequestBody": "",
       "RequestHeaders": {
         "x-ms-client-request-id": [
-          "08a909cf-0b70-4672-83f5-5c78db3881d1"
+          "8fdc70fe-1df9-4aee-9fb7-8652372f54ab"
         ],
         "accept-language": [
           "en-US"
@@ -24,7 +24,7 @@
           "no-cache"
         ],
         "Date": [
-          "Fri, 22 Nov 2019 08:01:00 GMT"
+          "Mon, 25 Nov 2019 23:01:12 GMT"
         ],
         "Pragma": [
           "no-cache"
@@ -33,19 +33,19 @@
           "Microsoft-HTTPAPI/2.0"
         ],
         "x-ms-ratelimit-remaining-subscription-policy-insights-requests": [
-          "598"
+          "597"
         ],
         "x-ms-request-id": [
-          ":7b428270-1d83-4adf-b67e-4597b9a55dd8"
+          ":fa85126d-38a6-4f9c-9f84-9d0fa6f3c7a9"
         ],
         "x-ms-ratelimit-remaining-subscription-reads": [
-          "11999"
+          "11995"
         ],
         "x-ms-correlation-request-id": [
-          "f9b8c3d8-a276-42b1-be16-e6021e9b73f7"
+          "87ffb6c6-f8f0-48fd-b776-81c2ef351168"
         ],
         "x-ms-routing-request-id": [
-          "WESTUS:20191122T080101Z:f9b8c3d8-a276-42b1-be16-e6021e9b73f7"
+          "WESTUS:20191125T230113Z:87ffb6c6-f8f0-48fd-b776-81c2ef351168"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -63,10 +63,12 @@
           "-1"
         ]
       },
-      "ResponseBody": "{\r\n  \"@odata.context\": \"https://management.azure.com/subscriptions/e78961ba-36fe-4739-9212-e3031b4c8db7/providers/Microsoft.Authorization/policyAssignments/8e6d811f59d145db97ca9f16/providers/Microsoft.PolicyInsights/policyStates/$metadata#summary\",\r\n  \"@odata.count\": 1,\r\n  \"value\": [\r\n    {\r\n      \"@odata.id\": null,\r\n      \"@odata.context\": \"https://management.azure.com/subscriptions/e78961ba-36fe-4739-9212-e3031b4c8db7/providers/Microsoft.Authorization/policyAssignments/8e6d811f59d145db97ca9f16/providers/Microsoft.PolicyInsights/policyStates/$metadata#summary/$entity\",\r\n      \"results\": {\r\n        \"queryResultsUri\": \"https://management.azure.com/subscriptions/e78961ba-36fe-4739-9212-e3031b4c8db7/providers/Microsoft.Authorization/policyAssignments/8e6d811f59d145db97ca9f16/providers/Microsoft.PolicyInsights/policyStates/latest/queryResults?api-version=2019-10-01&$from=2019-11-21 00:00:00Z&$to=2019-11-22 08:01:01Z\",\r\n        \"nonCompliantResources\": 0,\r\n        \"nonCompliantPolicies\": 0,\r\n        \"resourceDetails\": [],\r\n        \"policyDetails\": [],\r\n        \"policyGroupDetails\": []\r\n      },\r\n      \"policyAssignments\": []\r\n    }\r\n  ]\r\n}",
+      "ResponseBody": "{\r\n  \"@odata.context\": \"https://management.azure.com/subscriptions/e78961ba-36fe-4739-9212-e3031b4c8db7/providers/Microsoft.Authorization/policyAssignments/8e6d811f59d145db97ca9f16/providers/Microsoft.PolicyInsights/policyStates/$metadata#summary\",\r\n  \"@odata.count\": 1,\r\n  \"value\": [\r\n    {\r\n      \"@odata.id\": null,\r\n      \"@odata.context\": \"https://management.azure.com/subscriptions/e78961ba-36fe-4739-9212-e3031b4c8db7/providers/Microsoft.Authorization/policyAssignments/8e6d811f59d145db97ca9f16/providers/Microsoft.PolicyInsights/policyStates/$metadata#summary/$entity\",\r\n      \"results\": {\r\n        \"queryResultsUri\": \"https://management.azure.com/subscriptions/e78961ba-36fe-4739-9212-e3031b4c8db7/providers/Microsoft.Authorization/policyAssignments/8e6d811f59d145db97ca9f16/providers/Microsoft.PolicyInsights/policyStates/latest/queryResults?api-version=2019-10-01&$from=2019-11-21 00:00:00Z&$to=2019-11-25 23:01:12Z\",\r\n        \"nonCompliantResources\": 0,\r\n        \"nonCompliantPolicies\": 0,\r\n        \"resourceDetails\": [],\r\n        \"policyDetails\": [],\r\n        \"policyGroupDetails\": []\r\n      },\r\n      \"policyAssignments\": []\r\n    }\r\n  ]\r\n}",
       "StatusCode": 200
     }
   ],
   "Names": {},
-  "Variables": {}
+  "Variables": {
+    "SubscriptionId": "0b40be06-04e8-4f70-abde-a502b2646fe8"
+  }
 }
